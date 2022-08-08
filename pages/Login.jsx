@@ -34,8 +34,6 @@ const Login = () => {
 
       localStorage.setItem('token', data.token);
 
-      console.log(import.meta.env.VITE_BACKEND_URL)
-
       setAuth(data);
       location.reload();
       setAlerta({});
